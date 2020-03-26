@@ -38,15 +38,15 @@ def checkStr(strA,pos_a,listB,pos_b):
         else:
             return True
 
-# print(checkStr(PI,13,IN,4))
-print(findMatch(PI,IN))
-print(findMatch(A,B))
-# print(PI[0])
-# print(IN[0+1])
-# print(PI.__len__())
-# print(len(PI))
-# print(PI[29])
-# print(len(IN))
+# print(checkStr(PI,3,IN,3)) # True
+print(findMatch(PI,IN)) # 3(314 15926535897 9323 846263383279)
+print(findMatch(A,B)) # 3(950730 931003 010515 4279)
+# print(PI[0]) # 3
+# print(IN[0+1]) # 49
+# print(PI.__len__()) # 30
+# print(len(PI)) # 30
+# print(PI[29]) # 9
+# print(len(IN)) # 9
 
 # for i in range(0, PI.__len__()):
 #     print(PI[0+i])
