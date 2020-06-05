@@ -8,8 +8,9 @@ of characters that appear in all strings.
 
 
 # MY SOLUTION:
+# print(ord('~')-ord(' ')) # 94
 MAX_CHAR=94 # a to z, 0 to 9, symbol 
-  
+
 def _MyCommon( s1, s2): 
 
     # for looping purpose
